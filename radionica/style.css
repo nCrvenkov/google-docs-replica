@@ -1,0 +1,193 @@
+#okvir
+{
+  background-color:#F0F0F0;
+  padding-bottom: 10px;
+  width:100%;
+}
+#nav
+{
+  background-color:#F9F9F9;
+}
+#up
+{
+  padding-top: 10px;
+  height:50px;
+}
+#docs-img
+{
+  padding-left: 15px;
+  padding-bottom: 10px;
+  float: left;
+}
+#title-menu
+{
+  float:left;
+}
+#title-bar
+{
+  margin-top: -20px;
+  margin-left: 15px;
+}
+#docs-img img
+{
+  height:45px;
+}
+
+#menu-list
+{
+  float: left;
+  margin-left: -30px;
+  margin-top: -10px;
+}
+#menu-list li
+{
+  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:4px 6px 6px 6px;
+}
+#menu-list li:hover
+{
+  background-color:#DFDFDF;
+}
+#command-list
+{
+  width:100%;
+  margin:0px auto;
+  height:40px;
+  border-top:1px solid #CCC;
+  border-bottom:1px solid #CCC;
+  padding-left:20px;
+  text-align: center;
+  list-style-type: none;
+  vertical-align: middle;
+  line-height: 36px;
+}
+#command-list li {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right:1px solid #CCC;
+  padding-left: 5px;
+  padding-right: 5px;
+  height:100%;
+}
+#command-list select
+{
+  border:0px;
+  outline:0px;
+}
+#command-list select:hover
+{
+  background-color:#DFDFDF;
+}
+.popup
+{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 7px;
+}
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -80px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.popup .popuptext button
+{
+  margin-top:5px;
+  width:60px;
+  height:36px;
+  margin-left:33%;
+}
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+#jendvatri
+{
+  position: relative;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 7px;
+}
+#jendvatri .form-popup {
+  display: none;
+  position: absolute;
+  top: 93%;
+  left: -10%;
+  right: 15px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  border:1px ridge;
+  box-shadow: 1px 1px 10px #888;
+  text-align: left;
+}
+
+/* Add styles to the form container */
+/*#form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}*/
+#text
+{
+  border:1px ridge;
+  padding:100px 100px 100px 100px;
+  width:800px;
+  margin:0px auto;
+  margin-top:10px;
+  background-color:#FFF;
+  min-height: 800px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 10px #888;
+}
+.material-icons
+{
+  color:#777777;
+  padding:3px;
+  font-size:10px;
+  cursor: pointer;
+}
+.material-icons:hover
+{
+  background-color:#DFDFDF;
+  color:#333333;
+  border-radius:3px;
+}
+.cistac
+{
+  clear:both;
+}
